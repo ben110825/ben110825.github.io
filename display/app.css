@@ -1,0 +1,12 @@
+span{
+    background-color: palevioletred;
+    border: 1px solid black;
+    
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: palegoldenrod;
+    border: 5px solid black;
+    display: inline-block;
+}

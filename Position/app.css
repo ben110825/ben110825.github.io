@@ -1,0 +1,36 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#midden {
+    background-color: coral;
+}
+
+#static #midden {
+    position: static;
+    top: 100px;
+}
+
+#relative #midden {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#absolute{
+    position: relative;
+
+}
+#absolute #midden {
+    position: absolute;
+    top:1px;
+}
+
+#fixed #midden {
+    position: fixed;
+    top:100px;
+}
